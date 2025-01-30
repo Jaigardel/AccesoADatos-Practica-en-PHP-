@@ -393,9 +393,9 @@ INSERT INTO `sedes` (`id`, `nombre`, `direccion`) VALUES
 
 CREATE TABLE `usuarios` (
   `email` varchar(100) NOT NULL,
-  `password` varchar(60) NOT NULL,
+  `password` varchar(60) NULL,
   `activo` tinyint(1) NOT NULL DEFAULT 0,
-  `token` varchar(60) NOT NULL,
+  `token` varchar(60) NULL,
   `rol_id` int(10) NOT NULL,
   `fecha` datetime NOT NULL DEFAULT current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
