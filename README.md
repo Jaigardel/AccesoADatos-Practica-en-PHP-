@@ -15,7 +15,7 @@ This project is an extension of a previously developed company management system
 
 #### **User Roles**
 - **ADMIN**: Full access to user management, company branches, departments, and employees.
-- **GESTOR**: Manages employees only (add, update, delete employees).
+- **GESTOR**: Manages employees (add, update, delete employees), also can read the other company branches.
 - **CONSULTA**: Read-only access to company branches, departments, and employees.
 
 ## 🔑 Authentication System
